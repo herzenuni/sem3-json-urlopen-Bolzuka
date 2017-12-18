@@ -1,4 +1,4 @@
-# https://api.vk.com/method/users.get?user_ids=53656294&v=5.8&fields=nickname,status,education,online,country
+# https://api.vk.com/method/users.get?user_ids=53656294&v=5.8&fields=nickname,status,online,country
 
 import urllib.request
 import json

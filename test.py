@@ -26,16 +26,16 @@ data = json.loads(html)
 u = data.get('response')
 
 for user in u:
-print("First name: " + str(user['first_name']))
-print("Last name: " + str(user['last_name']))
-print("Nickname: " + str(user['nickname']))
-print("Status: " + str(user['status']))
-print("Online: " + str(user['online']))
-print("Сountry: " + str(user['country']))
+    print("First name: " + str(user['first_name']))
+    print("Last name: " + str(user['last_name']))
+    print("Nickname: " + str(user['nickname']))
+    print("Status: " + str(user['status']))
+    print("Online: " + str(user['online']))
+    print("Сountry: " + str(user['country']))
 
-print('\n')
-print('_____' * 10)
-print('\n')
+    print('\n')
+    print('_____' * 10)
+    print('\n')
 
             
 if __name__ == '__main__':

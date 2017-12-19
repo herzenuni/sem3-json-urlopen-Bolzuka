@@ -20,4 +20,4 @@ def url1()
     print('_____' * 10)
     print('\n')
     
-url1()
+print(url1())

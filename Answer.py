@@ -19,3 +19,5 @@ def url1()
     print('\n')
     print('_____' * 10)
     print('\n')
+    
+url1()
